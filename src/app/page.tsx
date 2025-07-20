@@ -1,11 +1,11 @@
 'use client'
 import React from 'react'
-import Google from './components/Google'
+import AuthProvider from './components/AuthProvider'
 
 const page = () => {
   return (
     <div>
-      <Google/>
+      <AuthProvider/>
     </div>
   )
 }
